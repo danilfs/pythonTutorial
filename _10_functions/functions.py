@@ -55,7 +55,7 @@ def format_date(*, day: int, month: str) -> str:
     return f"The date is {day} of {month}."
 
 
-print(format_date(day=15, month="October"))  # Outputs: The date is 15 of October.
+print(format_date(day=15,month="October"))  # Outputs: The date is 15 of October.
 
 
 def custom_greeting(*, name: str, greeting: str = "Hello") -> str:

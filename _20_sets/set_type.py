@@ -32,3 +32,17 @@ unique_numbers = set(numbers)
 print(unique_numbers)  # Output: {1, 2, 3, 4, 5, 6, 7}
 unique_numbers = list(unique_numbers)
 print(unique_numbers)  # Output: [1, 2, 3, 4, 5, 6, 7]
+
+
+list_of_numbers = {1,3,2,4,5,6,2,3,5,6}
+list_of_numbers.add(8)
+print(list_of_numbers)
+unique_numbers = set(list_of_numbers)
+print(unique_numbers)
+unique_numbers = list(unique_numbers)
+print(unique_numbers)
+
+list_of_numbers_2 = {1,7,4,8,9,4,3,2,6,7}
+
+print (list_of_numbers.union(list_of_numbers_2))
+print(list_of_numbers)
