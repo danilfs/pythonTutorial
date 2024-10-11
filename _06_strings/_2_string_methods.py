@@ -11,6 +11,8 @@ print(len(my_string))  # Outputs: 21
 print(len(my_string.strip()))  # Outputs: 13
 print(my_string.strip())  # Outputs: 'Hello, world!'
 
+my_string.strip()
+
 
 my_string = 'Hello, world!'
 print(my_string.replace('world', 'Python'))  # Outputs: 'Hello, Python!'

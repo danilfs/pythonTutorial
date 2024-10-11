@@ -38,9 +38,9 @@ greeting = 'Hello, World!'
 indexes = []
 letter = 'o'
 count = 0
-for i in range(len(greeting)):
-    if greeting[i] == letter:
-        indexes.append(i)
+for index in range(len(greeting)):
+    if greeting[index] == letter:
+        indexes.append(index)
         count += 1
 print(count)  # Outputs: 2
 print(indexes)  # Outputs: [4, 8]
