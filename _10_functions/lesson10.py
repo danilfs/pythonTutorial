@@ -1,33 +1,68 @@
-# numbers1 = [1,2,3,5,6,7]
-# numbers2 = [1,9,3,1,1,1]
+numbers_1 = [1, 2, 3, 4, 5]
+
+
+# average_1 = sum(numbers_1) / len(numbers_1)
+# print(average_1)
+
+# numbers_1 = [1,2,3,5,6]
+# average_1 = sum(numbers_1) / len(numbers_1)
+# print(average_1)
+
+# def find_average(numbers):
+#     average = sum(numbers) / len(numbers)
+#     return average
+
+# def find_average(numbers):
+#     average = sum(numbers) / len(numbers)
+#     return average
 #
-# def find_average (some_numbers):
-# 	average = sum(some_numbers) / len(some_numbers)
-# 	return average
 #
-# average1 = find_average(numbers1)
-# average2 = find_average(numbers2)
+# print(find_average(numbers_1))
+
+# def count_vowels(string):
+#     vowels = 'aeiouyAEIOUY'
+#     count = 0
+#     for char in string:
+#         if char in vowels:
+#             count += 1
+#     return count
+
+# def find_vowels(string):
+#     vowels = 'aeuioAEUIO'
+#     count = 0
+#     indexes = []
+#     for char in string:
+#         if char in vowels:
+#             count += 1
+#     return count
 #
-# print(average2, average1)
+#
+# print(find_vowels('Alo privet'))
 
-# def find_vowels (some_word):
-# 	VOWELS = "aeiouAEIOU"
-# 	count = 0
-# 	for char in some_word:
-# 		if char in VOWELS:
-# 			count += 1
-# 	return count
-# print(find_vowels('ijfiojodsjfo'))
-
-# def format_day (*, day: int , month: str) -> str:
-# 	return f"The day is {day} , the month is {month}"
-# print(format_day(day = 15 ,month ='October'))
+# def format_date(*, day: int, month: str) -> str:
+#     return f"The date is {day} of {month}."
+#
+#
+# print(format_date(month='October', day=6))  # Outputs: The date is 15 of October.
 
 
-def greetings (*, name: str , greeting: str = 'Good morning') -> str :
-	return f"{name}, {greeting}"
-print (greetings(name = "Fanty" ))
-print (greetings(name = "John" , greeting= "Hi"))
+# def format_date (*, day: int, month: str) -> str:
+#     return f'The day is {day}, the month is {month}'
+#
+#
+# print(format_date(day=8, month='Jule'))
 
-def nothing():
-    print("This function does nothing.")
+# def custom_greeting(*, name: str, greeting: str = "Hello") -> str:
+#     return f"{greeting}, {name}"
+#
+#
+# print(custom_greeting(name="John"))  # Outputs: Hello, John
+# print(custom_greeting(name="John", greeting="Good morning"))  # Outputs: Good morning, John
+
+
+# def greetings(*, name: str, greeting: str = 'Hi') -> str:
+#     return f'{greeting}, {name}'
+#
+#
+# print(greetings(name='Mike'))
+# print(greetings(greeting='Hello',name='Mike'))
