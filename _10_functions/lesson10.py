@@ -28,3 +28,6 @@ def greetings (*, name: str , greeting: str = 'Good morning') -> str :
 	return f"{name}, {greeting}"
 print (greetings(name = "Fanty" ))
 print (greetings(name = "John" , greeting= "Hi"))
+
+def nothing():
+    print("This function does nothing.")
