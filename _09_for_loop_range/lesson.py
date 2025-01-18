@@ -17,8 +17,9 @@
 #         continue
 #     print(num)
 
-numbers = [10,11,12,13,14,15]
+# numbers = [10,11,12,13,14,15]
+#
+# for i in range(len(numbers)):
+#     numbers[i] += 1
+# print(numbers)
 
-for i in range(len(numbers)):
-    numbers[i] += 1
-print(numbers)

@@ -1,33 +1,34 @@
-import random
-
 # counter = 1
-#
 # while counter <= 5:
+#     print(f'Counter is: {counter}')  # Outputs: 1, 2, 3, 4, 5
+#     counter += 1
 #
-# 	print(f"Counter is : {counter}")
-# 	counter += 1
-
-
-# my_list = [1,2,3]
 #
+# my_list = [0, 1, 2]
 # while my_list:
-# 	element = my_list.pop()
-# 	print(f"element : {element}")
+#     element = my_list.pop()
+#     print(f"element: {element}")  # Outputs: 2, 1, 0
 # print(my_list)
 
-# while True :
-# 	answer = input("Enter number :")
-# 	if answer == "quit":
-# 		break
-# 	print(f"U entered : {answer}")
 
-HEADS = "heads"
-TAILS = "tails"
-COIN_VALUES = [HEADS,TAILS]
+# counter = 1
+# while counter <= 5:
+# 	print(f'Counter is {counter}')
+# 	counter += 1
 
-# def flip_coin():
-# 	return random.choice(COIN_VALUES)
+# my_list = [0,1,2,3]
+# while my_list:
+# 	element = my_list.pop()
+# 	print(f'conter is {element}')
+# print(my_list)
+
+# while True:
+#     answer = input("Enter a number: ")
+#     if answer == 'quit':
+#         break
+#     print(f"You entered: {answer}")
 #
-# def play_martingale () ->int:
-
-1
+# for number in range(10):
+#     print(number)
+#     if number == 2:
+#         break
