@@ -30,4 +30,4 @@ COIN_VALUES = [HEADS,TAILS]
 #
 # def play_martingale () ->int:
 
-
+1
