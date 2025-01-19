@@ -1,23 +1,11 @@
 import requests
+from urllib3 import request
 
-
-url = "https://api.binance.com/api/v3/ticker/price"
-
-responce = requests.get(url , params={'symbol': 'BTCUSDT'})
-
-# content = responce.content
-
-# content = responce.json()
-
+responce = requests.get('https://api.binance.com/api/v3/ticker/price', params= {'symbol':'BTCUSDT'})
+content = responce.content
+print(content)
+print(type(content))
 price_object = responce.json()
-
-price = float(price_object['price'])
-
+print(price_object)
+price = price_object["price"]
 print(price)
-print(type(price))
-
-# print(content)
-# print(type(content))
-
-# print(content)
-# print(type(content))
