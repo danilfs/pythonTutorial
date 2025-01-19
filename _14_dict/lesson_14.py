@@ -36,9 +36,51 @@
 # person["job"] = "Engineer"
 # print(person)
 
-person = {}
-# or person = dict()
-person["name"] = "Danil"
-person["city"] = "SPB"
-person["age"] = 32
+# person = {}
+# # or person = dict()
+# person["name"] = "Danil"
+# person["city"] = "SPB"
+# person["age"] = 32
+# print(person)
+
+
+person = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+
+add_info = {
+	"job":"Kae",
+	"name": "Dan",
+}
+
+person = person | add_info
 print(person)
+
+# person.update(add_info)
+# print(person)
+
+
+# for item in person.items():
+#     print(item)
+#     print(type(item))
+#
+# for key, value in person.items():
+#     print(key)
+#     print(value)
+#
+# for key in person.keys():
+#     print(key)
+#
+# for value in person.values():
+#     print(value)
+
+
+# for item in person.items():
+# 	print(item)
+# 	print(type(item))
+
+# for key,value in person.items():
+# 	print(key)
+# 	print(value)
