@@ -1,13 +1,12 @@
-import random
-from math_operations import add
+from _17_import.math_operations import add,subtract
 
-# my_list = [1,2,3]
-#
-# print(random.choice(my_list))
-# print(globals().keys())
+print(add(1,3))
+print(subtract(4,5))
 
-# print(dir(random))
-# print (add(1,2))
-# print(subtract(9,2))
+from _17_import import math_operations
 
-# print(add(1,5))
+print(math_operations.add(6,7))
+
+
+from _17_import.math_operations import add as addition
+print(f'Addition = {addition(7,8)}')
