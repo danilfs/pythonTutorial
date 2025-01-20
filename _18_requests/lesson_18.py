@@ -1,23 +1,26 @@
+import json
+import time
+
 import requests
 
-
-url = "https://api.binance.com/api/v3/ticker/price"
-
-responce = requests.get(url , params={'symbol': 'BTCUSDT'})
-
-# content = responce.content
-
-# content = responce.json()
-
-price_object = responce.json()
-
-price = float(price_object['price'])
-
-print(price)
-print(type(price))
-
+# response = requests.get('https://api.binance.com/api/v3/ticker/price', params={'symbol': 'BTCUSDT'})
+# content = response.content
 # print(content)
-# print(type(content))
+# price_object = response.json()
+# print(price_object)
+# price = float(price_object['price'])
+# print(price)
 
-# print(content)
-# print(type(content))
+bitcoin_prices = []
+
+for i in range(30):
+	response = requests.get('https://api.binance.com/api/v3/ticker/price', params= {'symbol':'BTCUSDT'})
+	price_object = response.json()
+	price = float(price_object['price'])
+	bitcoin_prices.append(price)
+
+
+print(bitcoin_prices)
+print(len(bitcoin_prices))
+print(max(bitcoin_prices))
+print(min(bitcoin_prices))

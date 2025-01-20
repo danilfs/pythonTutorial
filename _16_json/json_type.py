@@ -7,6 +7,9 @@ book = {
     'uuid': 'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11',
 }
 
+print(type(book))
+print(book)
+
 # convert into JSON:
 json_string = json.dumps(book)
 print(type(json_string))
