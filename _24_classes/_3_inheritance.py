@@ -43,7 +43,7 @@ class Ork(Character):
     base_attack_power = 10
 
 
-ork_1 = Ork(level=1)
+ork_1 = Ork(level=3)
 print(ork_1.attack())  # Output: Ork attacks with 10 power
 print(ork_1)  # Output: Ork (level: 1, hp: 100)
 
