@@ -46,6 +46,7 @@ class Ork(Character):
     character_name = "Ork"
     base_defence = 15
 
+
     @property
     def defence(self) -> int:
         defence = super().defence
